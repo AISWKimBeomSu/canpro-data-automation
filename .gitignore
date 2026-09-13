@@ -1,0 +1,19 @@
+# ── 개인정보 · 연구 데이터 : 절대 커밋 금지 ──
+data/*
+!data/README.md
+*.tsv
+*.csv
+*.xlsx
+*.xls
+*.log
+
+# 브라우저 프로필 · 세션 · 스크린샷
+chrome-profile/
+shots/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
